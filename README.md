@@ -12,10 +12,6 @@ Vip Sms is a Laravel package to Send Sms message
 
 
 
-## Acknowledgements
-
- - [Alireza Abdolmaleki](https://github.com/alirezaabdolmaleki)
- 
 ## Installation
 
 with composer 
@@ -76,6 +72,22 @@ use Alirezaabdolmaleki\VipSms\Facades\Sms;
 
 Sms::send("09123456789", "your message");
 ```
+
+
+Send Message by Pattern (`only mediana driver`)
+
+```bash
+use Alirezaabdolmaleki\VipSms\Facades\Sms;
+
+   $datas = [
+        'variable1' => "test variable 1",
+        'variable1' => 'test variable 2',
+    ];
+    
+Sms::sendByPattern("09123456789", $datas, 'c207ascp17oglp8');
+
+```
+
 ## Related
 
 Here are some related projects

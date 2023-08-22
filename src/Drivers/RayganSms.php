@@ -39,16 +39,15 @@ class RayganSms extends SmsManager
     }
 
 
-    function send( $mobiles, $message)
+    function send( $mobile, $message)
     {
 
-        // return ("send from raygan sms $mobiles  $message");
         $params = [
             'UserName'    => $this->username,
             'Password'    => $this->password,
             'PhoneNumber' => $this->senderNumber,
             'Smsclass'    => '1',
-            'RecNumber'   => $mobiles,
+            'RecNumber'   => $mobile,
             'MessageBody' => $message,
         ];
         $response = $this->client->request('POST', $this->getUrl(), ['form_params' => $params]);
