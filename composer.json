@@ -1,6 +1,7 @@
 {
   "name": "alirezaabdolmaleki/vip-sms",
   "type": "library",
+  "version": "1.1.1",
   "description": "A simple API extension for send text message By Vip Sms",
   "keywords": [
     "alirezaabdolmaleki",
