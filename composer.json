@@ -2,10 +2,7 @@
     "name": "alirezaabdolmaleki/vip-sms",
     "type": "library",
     "description": "A simple API extension for sending text messages via Vip Sms",
-    "keywords": [
-      "alirezaabdolmaleki",
-      "VipSms"
-    ],
+    "keywords": ["alirezaabdolmaleki", "VipSms"],
     "support": {
       "issues": "https://github.com/alirezaabdolmaleki/VipSms/issues",
       "source": "https://github.com/alirezaabdolmaleki/VipSms"
@@ -25,7 +22,7 @@
       "illuminate/notifications": "*",
       "guzzlehttp/guzzle": "*",
       "ext-json": "*",
-      "alirezaabdolmaleki/vip-sms": "1.1.1"
+      "alirezaabdolmaleki/vip-sms": "^1.1.1"
     },
     "autoload": {
       "psr-4": {
