@@ -1,8 +1,7 @@
 
 # Project Title
 
-Vip Sms is a Laravel package to Send Sms message 
-
+Vip Sms is a Laravel package that provides a convenient and easy-to-use way to send SMS messages. With this package, developers can quickly integrate SMS functionality into their Laravel applications. Whether it's sending notifications, alerts, or marketing messages, Vip Sms simplifies the process and allows for seamless communication with users via SMS.
 
 ## Support Drivers
 
