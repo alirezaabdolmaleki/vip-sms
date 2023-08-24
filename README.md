@@ -17,7 +17,7 @@ Vip Sms is a Laravel package to Send Sms message
 with composer 
 
 ```bash
-  composer require alirezaabdolmaleki/vip-sms
+  composer require alirezaabdolmaleki/vip-sms:1.1.1
 ```
     
 
